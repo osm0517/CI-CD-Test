@@ -1,2 +1,3 @@
 jenkins test
-auto test
+\n auto test
+\n build test
