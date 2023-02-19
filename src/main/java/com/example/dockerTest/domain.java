@@ -10,5 +10,10 @@ public class domain {
     private int age;
 
 
+
+
+
+
+
     
 }
