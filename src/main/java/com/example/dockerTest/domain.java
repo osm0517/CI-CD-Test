@@ -9,11 +9,5 @@ public class domain {
     private String name;
     private int age;
 
-
-
-
-
-
-
     
 }
