@@ -20,8 +20,11 @@ jobs :
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
+#         java version을 설정
           java-version: '17'
-    
+#           어떤 배포판을 쓸지를 명시함
+          distribution : 'adopt'
+#     권한을 설정
       - name : Change Permission
         run : chmod +x ./gradlew
     
