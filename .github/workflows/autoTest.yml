@@ -16,9 +16,6 @@ jobs :
     runs-on : ubuntu-latest
   
     steps :
-      - name : gradlew grant
-        run : chmod +x gradlew
-
       - name : Test with Gradle
         run : ./gradlew test
 
