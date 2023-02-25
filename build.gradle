@@ -24,7 +24,7 @@ jar {
 
 dependencies {
 //	data jpa config
-//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
 //	thymeleaf config
 //	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
@@ -37,7 +37,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
 //	mysql config
-//	implementation 'mysql:mysql-connector-java'
+	implementation 'mysql:mysql-connector-java'
 
 //	test config
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
